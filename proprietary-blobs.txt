@@ -60,7 +60,6 @@ lib64/libfilterpack_facedetect.so
 -priv-app/SprintDM/SprintDM.apk
 
 /system/bin/diag_qshrink4_daemon
-/system/bin/halutil
 /system/bin/mm-audio-alsa-test
 /system/bin/PktRspTest
 /system/bin/ssr_setup
