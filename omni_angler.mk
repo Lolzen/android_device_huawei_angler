@@ -1,3 +1,6 @@
+# Bootanimation
+TARGET_BOOTANIMATION_SIZE := 1080p
+
 # Inherit omni-specific board config
 include device/huawei/angler/BoardConfigOmni.mk
 
@@ -12,9 +15,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
-
-# Bootanimation
-TARGET_BOOTANIMATION_SIZE := 1080p
 
 # TWRP
 PRODUCT_COPY_FILES += \
