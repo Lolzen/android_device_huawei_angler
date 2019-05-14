@@ -15,7 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_angler.mk
+    $(LOCAL_DIR)/aosp_angler.mk \
+    $(LOCAL_DIR)/omni_angler.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_angler-userdebug
+    aosp_angler-userdebug \
+    omni_angler-userdebug
